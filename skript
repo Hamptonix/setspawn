@@ -1,0 +1,17 @@
+# /setspawn
+
+command setspawn:
+    trigger:
+        usage: Sets Global Spawn
+        permission: op
+        permission message: you do not have permission to run this command
+        set spawn to location of player
+        send "&l&c[Admin] - &7Set Global spawn" to player
+
+# /spawn
+
+command spawn:
+    trigger:
+        usage: Teleport to Global Spawn
+        teleport player to spawn
+        send "&l&d[Game] - &7Beamed to Spawn" to player
